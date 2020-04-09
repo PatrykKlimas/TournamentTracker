@@ -1,0 +1,9 @@
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\TrackerLibrary.dll
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\TrackerLibrary.pdb
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csprojAssemblyReference.cache
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.dll
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.pdb
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\Dapper.dll
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\Dapper.xml
+C:\Users\Władca\Desktop\Programowanie\C#\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CopyComplete
