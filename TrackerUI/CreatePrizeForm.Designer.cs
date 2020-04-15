@@ -55,7 +55,7 @@
             // 
             // placeNumberValue
             // 
-            this.placeNumberValue.Location = new System.Drawing.Point(145, 65);
+            this.placeNumberValue.Location = new System.Drawing.Point(145, 60);
             this.placeNumberValue.Name = "placeNumberValue";
             this.placeNumberValue.Size = new System.Drawing.Size(146, 29);
             this.placeNumberValue.TabIndex = 25;

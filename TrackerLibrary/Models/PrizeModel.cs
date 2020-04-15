@@ -15,7 +15,7 @@ namespace TrackerLibrary.Models
         /// <summary>
         /// Represents place number.
         /// </summary>
-        public int PalceNumber { get; set; }
+        public int PlaceNumber { get; set; }
         /// <summary>
         /// Represents place name.
         /// </summary>
@@ -33,10 +33,18 @@ namespace TrackerLibrary.Models
         {
 
         }
-        public PrizeModel(string PlaceName, string PlaceNumber, string PrizeAmount, string PrizePercentage)
+        public PrizeModel( string PlaceNumber, string PlaceName, string PrizeAmount, string PrizePercentage)
         {
             this.PlaceName = PlaceName;
-            this.PalceNumber = int.Parse(PlaceNumber);
+            this.PlaceNumber = int.Parse(PlaceNumber);
+            this.PrizeAmount = decimal.Parse(PrizeAmount);
+            this.PrizePercentage = double.Parse(PrizePercentage);
+        }
+        public PrizeModel(string id , string PlaceNumber, string PlaceName, string PrizeAmount, string PrizePercentage)
+        {
+            this.id = int.Parse(id);
+            this.PlaceName = PlaceName;
+            this.PlaceNumber = int.Parse(PlaceNumber);
             this.PrizeAmount = decimal.Parse(PrizeAmount);
             this.PrizePercentage = double.Parse(PrizePercentage);
         }
