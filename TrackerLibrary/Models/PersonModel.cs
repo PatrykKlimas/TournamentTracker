@@ -26,12 +26,27 @@ namespace TrackerLibrary.Models
         /// </summary>
         public string CellphoneNumber { get; set; }
 
+
+        public string FullName
+        {
+            get { return $"{FirstName} {LastName}"; }
+
+        }
+
         public PersonModel()
         {
 
         }
         public PersonModel(string FirstName, string LastName, string EmailAddress, string CellphoneNumber)
         {
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.EmailAddress = EmailAddress;
+            this.CellphoneNumber = CellphoneNumber;
+        }
+        public PersonModel(int id,string FirstName, string LastName, string EmailAddress, string CellphoneNumber)
+        {
+            this.id = id;
             this.FirstName = FirstName;
             this.LastName = LastName;
             this.EmailAddress = EmailAddress;

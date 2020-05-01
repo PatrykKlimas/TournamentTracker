@@ -8,6 +8,7 @@ namespace TrackerLibrary.Models
 {
     public class MatchupModel
     {
+        public int id { get; set; }
         /// <summary>
         /// Represents all entries in the matchup model.
         /// </summary>

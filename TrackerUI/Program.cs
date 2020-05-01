@@ -17,10 +17,10 @@ namespace TrackerUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Initialize the database connections
-            TrackerLibrary.GlobalConfig.InitializeConnection(TrackerLibrary.DataBaseTyoe.TextFile);
+            TrackerLibrary.GlobalConfig.InitializeConnection(TrackerLibrary.DataBaseTyoe.Sql);
 
             // Application.Run(new TournamentDashboardForm());
-            Application.Run(new CreatePrizeForm());
+            Application.Run(new CreateTorunamentForm());
         }
     }
 }
