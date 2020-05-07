@@ -20,7 +20,7 @@ namespace TrackerUI
             TrackerLibrary.GlobalConfig.InitializeConnection(TrackerLibrary.DataBaseTyoe.Sql);
 
             // Application.Run(new TournamentDashboardForm());
-            Application.Run(new CreateTorunamentForm());
+            Application.Run(new TournamentDashboardForm());
         }
     }
 }
